@@ -1,4 +1,4 @@
-### Hungarian Algorithm Project Enhancement
+![image](https://github.com/gokturkhatay/Hungarian-Algorithm/assets/36425290/c904cf10-6a43-44fa-93e6-daff51df3f33)### Hungarian Algorithm Project Enhancement
 
 #### Project Overview
 This project implements the Hungarian Algorithm, a classic optimization algorithm used to solve assignment problems. The primary objective is to find the most cost-effective assignment in a weighted bipartite graph, typically representing workers and jobs. The algorithm aims to minimize the total cost of assigning each worker to a specific job, considering that each worker-job assignment has a specific cost associated with it.
@@ -8,6 +8,8 @@ The assignment problem is a fundamental question in operations research and comp
 
 #### Graph Representation
 In this context, the graph is a bipartite graph where one set of vertices represents workers and the other set represents jobs. Each edge in the graph has a weight, which represents the cost or efficiency of assigning the corresponding worker to the job. The solution of the Hungarian Algorithm can be visualized as a set of edges where each worker vertex is connected to exactly one job vertex, and the total weight (cost) of these edges is minimized.
+![image](https://github.com/gokturkhatay/Hungarian-Algorithm/assets/36425290/88dc42a9-6ba8-4f71-8c8c-7ba7778daf09)  ![image](https://github.com/gokturkhatay/Hungarian-Algorithm/assets/36425290/2a23c9ec-8ccf-4761-8e2d-36674da356f1)
+
 
 #### Code Explanation and Completion
 The Python code for implementing the Hungarian Algorithm is enhanced for better understanding and functionality:
@@ -86,3 +88,5 @@ print("Optimal Assignments:", assignments)
 4. **Main Program**:
    - The main part of the program prompts the user for input and then processes this input through the Hungarian Algorithm to find the optimal assignments.
    - After processing, it prints out the optimal assignments, showing which worker is assigned to which job for the minimum total cost.# Hungarian-Algorithm
+![image](https://github.com/gokturkhatay/Hungarian-Algorithm/assets/36425290/b991afbe-ea13-44f6-8bef-6e4d512d3d52)
+
