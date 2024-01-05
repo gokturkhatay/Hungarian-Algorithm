@@ -8,7 +8,9 @@ The assignment problem is a fundamental question in operations research and comp
 
 #### Graph Representation
 In this context, the graph is a bipartite graph where one set of vertices represents workers and the other set represents jobs. Each edge in the graph has a weight, which represents the cost or efficiency of assigning the corresponding worker to the job. The solution of the Hungarian Algorithm can be visualized as a set of edges where each worker vertex is connected to exactly one job vertex, and the total weight (cost) of these edges is minimized.
+
 ![image](https://github.com/gokturkhatay/Hungarian-Algorithm/assets/36425290/88dc42a9-6ba8-4f71-8c8c-7ba7778daf09)  
+
 #### Code Explanation and Completion
 The Python code for implementing the Hungarian Algorithm is enhanced for better understanding and functionality:
 
